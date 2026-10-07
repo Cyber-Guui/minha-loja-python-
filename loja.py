@@ -17,7 +17,6 @@ while resposta == "s":
         total_final = total - desconto
         mensagem = "Desconto de 10% aplicado"
 
-    
     else:
         total_final = total
         mensagem = "Sem desconto aplicado"
