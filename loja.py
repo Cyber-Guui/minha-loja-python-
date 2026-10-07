@@ -17,14 +17,10 @@ while resposta == "s":
         total_final = total - desconto
         mensagem = "Desconto de 10% aplicado"
 
-    elif total <= 180:
-        taxa = total * 0.15
-        total_final = total + taxa
-        mensagem = "Taxa de 15% aplicada"
-
+    
     else:
         total_final = total
-        mensagem = "Sem desconto ou taxa"
+        mensagem = "Sem desconto aplicado"
 
     produtos.append([produto, preço, quantidade, total_final])
 
